@@ -18,4 +18,4 @@ Follow these install instructions to setup a new Fedora Workstation.
 
 ## License
 
-The MIT License. Please see [the license file](license.md) for more information.
+The MIT License. Please see [the license file](LICENSE) for more information.
