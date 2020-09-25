@@ -15,3 +15,7 @@ about tracking it and may introduce breaking changes without prior notice.
 ## A Fresh Fedora Workstation Setup
 
 Follow these install instructions to setup a new Fedora Workstation.
+
+## License
+
+The MIT License. Please see [the license file](license.md) for more information.
