@@ -1,2 +1,3 @@
 config/dconf/*
 config/pulse/*
+config/ibus/*
