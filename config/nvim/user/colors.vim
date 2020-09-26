@@ -20,7 +20,6 @@
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 " SOFTWARE.
 
-
 " When set to "dark", Vim will try to use colors that look good on a dark 
 " background. When set to "light", Vim will try to use colors that look good 
 " on a light background. Any other value is illegal.
@@ -53,3 +52,25 @@ colorscheme gruvbox
 " the color highlighting rather than the cterm* values 
 " For more info feread through :h :highlight.
 set termguicolors
+
+" Make comments italic
+" You'll need a font with an italic set and a terminal capable of displaying 
+" italics. Also, if you're using a color scheme other than the default, 
+" the above line should come after the color scheme is loaded in 
+" $HOME/.config/nvim/user/colors.vim
+" so that the color scheme doesn't override it. The cterm makes it work in 
+" the terminal and the gui is for graphical Vim clients. 
+"
+" First and foremost, you should check if you terminal is capable 
+" of displaying text in italics. In your terminal type:
+" echo -e "\e[3m foo \e[23m"
+" If you see foo then okay, otherwise you need to change terminal 
+" (Gnome Terminal and Konsole are good choices). If you use neovim inside tmux
+" set this shit in tmux.conf: set -g default-terminal "tmux-256color" 
+autocmd ColorScheme * hi Comment cterm=italic gui=italic
+
+" Change the appearance of line numbers
+autocmd ColorScheme * hi LineNr guifg=#DAB997 guibg=#3C3836
+
+" Do Not display a ~ for blank lines
+autocmd ColorScheme * hi NonText guifg=#3C3836 guibg=#3C3836

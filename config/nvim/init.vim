@@ -20,5 +20,12 @@
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 " SOFTWARE.
 
+" My default configuration file is becoming huge. I'd like to split it to smaller
+" config files, each including only one, maximum 3-4 locations to each file, 
+" so that I can enable/disable them quickly.
+
+" General settings
+source $HOME/.config/nvim/user/settings.vim
+
 " Color settings
-source $HOME/.config/nvim/colors.vim
+source $HOME/.config/nvim/user/colors.vim
