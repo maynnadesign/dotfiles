@@ -55,8 +55,6 @@ set cmdheight=2
 set number relativenumber
 set nu rnu
 
-autocmd ColorScheme * hi Comment cterm=italic gui=italic
-
 " Remember the last executed command and make it visible in status line
 set showcmd
 

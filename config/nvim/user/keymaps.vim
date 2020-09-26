@@ -1,4 +1,4 @@
-" MIT License
+"" MIT License
 
 " Copyright (c) 2020 maynna design
 
@@ -20,15 +20,16 @@
 " OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 " SOFTWARE.
 
-" My default configuration file is becoming huge. I'd like to split it to smaller
-" config files, each including only one, maximum 3-4 locations to each file, 
-" so that I can enable/disable them quickly.
+"  The <Leader> key is a reference to a specific key defined 
+"  by the mapleader variable. The mapleader variable is easy to change, 
+"  and if you always remember to map keys with <Leader> then you'll avoid 
+"  confusing your own customisation with Vim's default keyboard shortcuts.
+let mapleader = ","
 
-" General settings
-source $HOME/.config/nvim/user/settings.vim
+" Use different key mappings for easy navigation between splits to save 
+" a keystroke. So instead of ctrl-w then j, it’s just ctrl-j:
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
-" Color settings
-source $HOME/.config/nvim/user/colors.vim
-
-" Custom keymaps
-source $HOME/.config/nvim/user/keymaps.vim
