@@ -32,3 +32,6 @@ source $HOME/.config/nvim/user/colors.vim
 
 " Custom keymaps
 source $HOME/.config/nvim/user/keymaps.vim
+ 
+" Plugins
+source $HOME/.config/nvim/user/plugins.vim
