@@ -1,2 +1,4 @@
 [Added Associations]
 audio/mpeg=rhythmbox.desktop;
+video/x-matroska=vlc.desktop;
+video/mp4=vlc.desktop;

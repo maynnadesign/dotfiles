@@ -3,3 +3,9 @@ config/pulse/*
 config/ibus/*
 config/QtProject.conf
 config/vlc/*
+config/chromium/
+config/pipewire-media-session/default-profile
+config/pipewire-media-session/*
+config/teamviewer/*
+config/totem/*
+config/transmission/*
