@@ -75,6 +75,9 @@ autocmd ColorScheme * hi LineNr guifg=#DAB997 guibg=#3C3836
 " Do Not display a ~ for blank lines
 autocmd ColorScheme * hi NonText guifg=#3C3836 guibg=#3C3836
 
+" Spell mistakes in Red colors
+autocmd ColorScheme * hi SpellBad guifg=#D75F5F guibg=#282828
+
 " Dim inactive windows using 'colorcolumn' setting
 " This tends to slow down redrawing, but is very useful.
 " Based on https://groups.google.com/d/msg/vim_use/IJU-Vk-QLJE/xz4hjPjCRBUJ

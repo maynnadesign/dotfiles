@@ -35,3 +35,6 @@ source $HOME/.config/nvim/user/keymaps.vim
  
 " Plugins
 source $HOME/.config/nvim/user/plugins.vim
+
+" bulgarian phonetic keyboard layout in command mode
+source $HOME/.config/nvim/user/bg_keymaps.vim
